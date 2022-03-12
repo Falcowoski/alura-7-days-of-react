@@ -1,4 +1,4 @@
-# Alura - 7 dias de React #7DaysofReact
+# Alura - 1 de 7 dias de React #7DaysofReact
 
 ![image](https://user-images.githubusercontent.com/85199880/158034745-d3a3a531-7fc9-44a1-9c98-0ebcc43f27e8.png)
 
