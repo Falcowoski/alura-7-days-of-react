@@ -1,12 +1,12 @@
 interface HeaderMenuItemProps {
-    text: string
-    link?: string,
+  text: string
+  link?: string,
 }
 
 function HeaderMenuItem({ text, link = '#' }: HeaderMenuItemProps) {
-    return (
-        <li><a href={link}>{text}</a></li>
-    );
+  return (
+    <li><a href={link}>{text}</a></li>
+  );
 }
 
 export default HeaderMenuItem;
