@@ -8,6 +8,10 @@
 - React Testing Library **12.1**
 - Vite **2.7**
 
+## Mais Informações
+
+- Foi utilizada a metodologia **BEM** para o **CSS**
+
 ## GitHub Pages
 
 - Você pode ver a aplicação em funcionamento [aqui.](https://falcowoski.github.io/alura-7-days-of-react/)
