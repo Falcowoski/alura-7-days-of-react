@@ -1,12 +1,13 @@
 import HeaderMenu from './HeaderMenu';
 import HeaderMenuItem from './HeaderMenuItem';
 import HeaderLogo from './HeaderLogo';
+import { StyledHeader, Navbar } from './Header.styled'
 import logo from '../../img/logo.svg'
 
 function Header() {
     return (
-        <header className="header">
-            <nav className="header__navbar">
+        <StyledHeader>
+            <Navbar>
                 <HeaderLogo imgSource={logo} alt="Logo da CasaVerde" link="#" />
                 <HeaderMenu>
                     <HeaderMenuItem text="Como fazer" />
@@ -15,8 +16,8 @@ function Header() {
                     <HeaderMenuItem text="Vídeos" />
                     <HeaderMenuItem text="Meu carrinho" link="#" />
                 </HeaderMenu>
-            </nav>
-        </header>
+            </Navbar>
+        </StyledHeader>
     );
 }
 

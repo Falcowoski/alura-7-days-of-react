@@ -1,3 +1,5 @@
+import { Anchor } from './Header.styled';
+
 interface HeaderLogoProps {
     imgSource: string,
     alt: string,
@@ -6,9 +8,9 @@ interface HeaderLogoProps {
 
 function HeaderLogo({ imgSource, alt, link = '#'}: HeaderLogoProps) {
     return (
-        <a className="header__logo" href={link}>
+        <Anchor href={link}>
             <img src={imgSource} alt={alt} />
-        </a>
+        </Anchor>
     );
 }
 

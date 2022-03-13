@@ -1,14 +1,16 @@
+import { Menu, List } from "./Header.styled";
+
 interface HeaderMenuProps {
     children: JSX.Element | JSX.Element[]
 }
 
 function HeaderMenu({ children }: HeaderMenuProps) {
     return (
-        <div className="header__menu">
-            <ul className="header__list">
+        <Menu>
+            <List>
                 {children}
-            </ul>
-        </div>
+            </List>
+        </Menu>
     );
 }
 
