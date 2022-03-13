@@ -1,7 +1,7 @@
 import { Component, Fragment } from 'react';
 import './App.css';
 import Header from './components/Header';
-import Newletter from './components/Newletter';
+import Newsletter from './components/Newsletter';
 
 interface MyProps {};
  
@@ -19,7 +19,7 @@ class App extends Component<MyProps, MyState> {
       <Fragment>
         <Header></Header>
         <main>
-          <Newletter />
+          <Newsletter />
         </main>
         <footer></footer>
       </Fragment>
