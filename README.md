@@ -1,4 +1,12 @@
-# Alura - 1 de 7 dias de React #7DaysofReact
+# Alura - 7 dias de React #7DaysOfReact
+
+### Resultado - Dia 1 de 7
+
+## Visualização
+![image](https://user-images.githubusercontent.com/85199880/158044575-c16394d1-6730-4a2a-8f1a-db4e897d5299.png)
+
+## Componetização
+![image](https://user-images.githubusercontent.com/85199880/158044605-cf61b14e-9d2a-4fdd-81b3-e71fde8e805d.png)
 
 ![image](https://user-images.githubusercontent.com/85199880/158034745-d3a3a531-7fc9-44a1-9c98-0ebcc43f27e8.png)
 
