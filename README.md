@@ -39,7 +39,14 @@
 
 ## Imagens
 
+### Aplicação
 ![image](https://user-images.githubusercontent.com/85199880/158044575-c16394d1-6730-4a2a-8f1a-db4e897d5299.png)
+
+### Componente Header
+<img src="https://user-images.githubusercontent.com/85199880/158082005-d9a71bd0-acba-45e9-a6ec-27cb6f83a214.png" width="75%" />
+
+### Estilo do componente Header
+<img src="https://user-images.githubusercontent.com/85199880/158082008-9d9bb415-2e17-4ff5-a010-e3fb36265239.png" width="50%" />
 
 ## Instalação
 
