@@ -1,6 +1,7 @@
 import { Component, Fragment } from 'react';
-import Header from './components/Header';
 import './App.css';
+import Header from './components/Header';
+import Newletter from './components/Newletter';
 
 interface MyProps {};
  
@@ -17,7 +18,9 @@ class App extends Component<MyProps, MyState> {
     return (
       <Fragment>
         <Header></Header>
-        <main></main>
+        <main>
+          <Newletter />
+        </main>
         <footer></footer>
       </Fragment>
     );
