@@ -1,3 +1,5 @@
+import { SubscribeWrapper, Icon, Input, Button } from "./Newsletter.styled";
+
 interface NewsletterSubscribeProps {
     inputPlaceholder: string,
     buttonText: string
@@ -5,11 +7,11 @@ interface NewsletterSubscribeProps {
 
 function NewsletterSubscribe({ inputPlaceholder, buttonText }: NewsletterSubscribeProps) {
     return (
-        <div className="newsletter__subscribe">
-            <i className="newsletter__icon fa fa-envelope"></i>
-            <input type="text" className="newsletter__input" placeholder={inputPlaceholder} />
-            <button className="newsletter__submit">{buttonText}</button>
-        </div>
+        <SubscribeWrapper>
+            <Icon className="fa fa-envelope"></Icon>
+            <Input type="text" placeholder={inputPlaceholder} />
+            <Button>{buttonText}</Button>
+        </SubscribeWrapper>
     );
 }
 

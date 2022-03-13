@@ -1,3 +1,5 @@
+import { ContentWrapper, Title, LargeTitle, Description } from "./Newsletter.styled";
+
 interface NewsletterContentProps {
     title: string,
     largeTitle: string,
@@ -6,11 +8,11 @@ interface NewsletterContentProps {
 
 function NewsletterContent({ title, largeTitle, description }: NewsletterContentProps) {
     return (
-        <div className="newsletter__content">
-            <p className="newsletter__title">{title}</p>
-            <h1 className="newsletter__title--large">{largeTitle}</h1>
-            <p className="newsletter__description">{description}</p>
-        </div>
+        <ContentWrapper>
+            <Title>{title}</Title>
+            <LargeTitle>{largeTitle}</LargeTitle>
+            <Description>{description}</Description>
+        </ContentWrapper>
     );
 }
 

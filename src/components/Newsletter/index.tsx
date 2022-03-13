@@ -1,9 +1,10 @@
 import NewsletterContent from "./NewsletterContent";
 import NewsletterSubscribe from "./NewsletterSubscribe";
+import { Wrapper } from "./Newsletter.styled";
 
 function Newsletter() {
     return (
-        <div className="newsletter">
+        <Wrapper>
             <NewsletterContent 
                 title="Sua casa com as"
                 largeTitle="melhores plantas"
@@ -11,7 +12,7 @@ function Newsletter() {
                     Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca." 
             />
             <NewsletterSubscribe inputPlaceholder="Insira seu e-mail" buttonText="Assinar newsletter" />
-        </div>
+        </Wrapper>
     );
 }
 
